@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "cross-env MODE_ENV=\"development\" nuxt dev",
+    "build": "nuxt build",
+    "build:dev": "cross-env MODE_ENV=\"development\" nuxt build",
+    "build:stg": "cross-env MODE_ENV=\"staging\" nuxt build",
+    "build:prod": "cross-env MODE_ENV=\"production\" nuxt build",
+    "dev:stg": "cross-env MODE_ENV=\"staging\" nuxt  dev",
+    "dev:prod": "cross-env MODE_ENV=\"production\" nuxt  dev",
+    "generate": "nuxt generate",
+    "generate:dev": "cross-env MODE_ENV=\"development\" nuxt generate",
+    "generate:stg": "cross-env MODE_ENV=\"staging\" nuxt generate",
+    "generate:prod": "cross-env MODE_ENV=\"production\" nuxt generate",
+    "preview": "nuxt preview",
+    "preview:dev": "cross-env MODE_ENV=\"development\" nuxt preview",
+    "preview:stg": "cross-env MODE_ENV=\"staging\" nuxt preview",
+    "preview:prod": "cross-env MODE_ENV=\"production\" nuxt preview",
+    "postinstall": "nuxt prepare",
+    "postinstall:dev": "cross-env MODE_ENV=\"development\" nuxt prepare",
+    "postinstall:stg": "cross-env MODE_ENV=\"staging\" nuxt prepare",
+    "postinstall:prod": "cross-env MODE_ENV=\"production\" nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nuxt": "^3.0.0",
+    "sass": "^1.59.3"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@line/liff": "^2.21.4",
+    "@nuxt/http": "^0.6.4",
+    "cross-env": "^7.0.3",
+    "firebase": "^9.15.0",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^105.0.0",
+    "mdi": "^2.2.43",
+    "vuetify": "^3.0.6"
+  }
+}
